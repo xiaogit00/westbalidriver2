@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nusa Penida Snorkeling Tour (2D/1N) — West Bali Driver</title>
+  <meta name="description" content="2-day overnight snorkeling trip to Nusa Penida. Manta rays, Blue Lagoon, Crystal Bay, Gamat Bay. Private car + boat + accommodation included. From $130." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Nunito:wght@300;400;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<!-- Mobile Nav -->
+<nav class="mobile-nav" id="mobileNav">
+  <button class="mobile-nav-close" onclick="closeMobileNav()">&times;</button>
+  <a href="index.html" onclick="closeMobileNav()">Home</a>
+  <a href="index.html#tours" onclick="closeMobileNav()">Tours</a>
+  <a href="index.html#gallery" onclick="closeMobileNav()">Gallery</a>
+  <a href="index.html#reviews" onclick="closeMobileNav()">Reviews</a>
+  <a href="https://wa.me/6581292310?text=Hello!%20I%27m%20interested%20in%20the%20Nusa%20Penida%20Snorkeling%20trip." target="_blank" class="mobile-nav-wa">
+    <svg viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg>
+    Book This Tour
+  </a>
+</nav>
+
+<!-- Navbar -->
+<header class="navbar" id="navbar">
+  <div class="container">
+    <div class="nav-inner">
+      <a href="index.html" class="nav-logo">
+        <div class="logo-icon">
+          <svg viewBox="0 0 24 24" fill="white"><path d="M5 13H3l9-11 9 11h-2v7H5v-7zm2 0v5h10v-5H7z"/></svg>
+        </div>
+        <div class="logo-text">
+          <span class="logo-name">West Bali Driver</span>
+          <span class="logo-sub">Private Car Tours</span>
+        </div>
+      </a>
+      <nav class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="index.html#tours">Tours</a>
+        <a href="index.html#gallery">Gallery</a>
+        <a href="index.html#reviews">Reviews</a>
+      </nav>
+      <div style="display:flex;align-items:center;gap:0.75rem;">
+        <a href="https://wa.me/6581292310?text=Hello!%20I%27m%20interested%20in%20the%20Nusa%20Penida%20Snorkeling%20trip." target="_blank" class="nav-wa">
+          <svg viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg>
+          <span class="wa-label">Book Now</span>
+        </a>
+        <button class="hamburger" onclick="openMobileNav()"><span></span><span></span><span></span></button>
+      </div>
+    </div>
+  </div>
+</header>
+
+<!-- Tour Hero -->
+<section class="tour-hero">
+  <div class="tour-hero-bg" style="background-image:url('https://picsum.photos/seed/nusapenida-snorkel/1600/900');"></div>
+  <div class="container">
+    <div class="tour-hero-content">
+      <div class="breadcrumb">
+        <a href="index.html">Home</a>
+        <span>&rsaquo;</span>
+        <a href="index.html#tours">Tours</a>
+        <span>&rsaquo;</span>
+        <span>Nusa Penida Snorkeling</span>
+      </div>
+      <h1>Nusa Penida Snorkeling Trip</h1>
+      <div class="tour-meta">
+        <div class="tmeta">
+          <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+          2 Days / 1 Night
+        </div>
+        <div class="tmeta">
+          <svg viewBox="0 0 24 24"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/></svg>
+          Private (1&ndash;6 Guests)
+        </div>
+        <div class="tmeta">
+          <svg viewBox="0 0 24 24"><path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
+          1 Night on the Island
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Tour Content -->
+<section class="tour-content">
+  <div class="container">
+    <div class="tour-layout">
+
+      <!-- Left: Main Content -->
+      <div>
+        <a href="index.html#tours" class="back-link">
+          <svg viewBox="0 0 24 24"><polyline points="15 18 9 12 15 6"/></svg>
+          Back to All Tours
+        </a>
+
+        <div class="tour-section">
+          <h2>About This Tour</h2>
+          <p>Nusa Penida sits in a stretch of open ocean where warm and cold currents collide &mdash; and that makes for some of the richest underwater life in all of Southeast Asia. This overnight trip gives you the time to explore it properly, without the rush of a day trip.</p>
+          <p>Across two days you'll snorkel multiple sites: drift alongside oceanic manta rays at Manta Point, float over vivid coral gardens in Gamat Bay, and swim through the clear blue waters of Crystal Bay and Blue Lagoon. Staying overnight on the island means you can hit the best spots early in the morning, before the day-trippers arrive.</p>
+          <p>We handle everything &mdash; car from your Bali hotel, fast boat, 4WD on the island, snorkeling gear, and a cosy guesthouse right by the water. All you need to bring is sunscreen and a sense of wonder.</p>
+        </div>
+
+        <div class="tour-section">
+          <h2>Tour Highlights</h2>
+          <div class="highlights-grid">
+            <div class="hl-item">
+              <svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg>
+              Manta Ray Point &mdash; Swim with Mantas
+            </div>
+            <div class="hl-item">
+              <svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg>
+              Crystal Bay Reef Snorkeling
+            </div>
+            <div class="hl-item">
+              <svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg>
+              Gamat Bay Coral Gardens
+            </div>
+            <div class="hl-item">
+              <svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg>
+              Blue Lagoon &amp; Wall Dive Spot
+            </div>
+            <div class="hl-item">
+              <svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg>
+              Overnight Stay on Nusa Penida
+            </div>
+            <div class="hl-item">
+              <svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg>
+              Early Morning Sites (Beat the Crowds)
+            </div>
+            <div class="hl-item">
+              <svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg>
+              Snorkeling Gear Provided
+            </div>
+            <div class="hl-item">
+              <svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg>
+              Fast Boat from Sanur (Return)
+            </div>
+          </div>
+        </div>
+
+        <div class="tour-section">
+          <h2>2-Day Itinerary</h2>
+          <div class="itinerary">
+            <div class="itin-item">
+              <h4>Day 1 &mdash; 07:00: Hotel Pickup &amp; Drive to Sanur</h4>
+              <p>Your driver picks you up from your Bali hotel and heads to Sanur harbour. Time for a coffee before boarding the boat.</p>
+            </div>
+            <div class="itin-item">
+              <h4>Day 1 &mdash; 08:30: Fast Boat to Nusa Penida</h4>
+              <p>45 minutes across the strait to Buyuk Harbour. Your island driver and snorkeling boat are waiting on arrival.</p>
+            </div>
+            <div class="itin-item">
+              <h4>Day 1 &mdash; 09:30: Manta Point</h4>
+              <p>The headline act. Oceanic manta rays gather here year-round to feed and be cleaned. Snorkel alongside these gentle giants in open water &mdash; an experience that stays with you forever. Best done first, while the sea is calm.</p>
+            </div>
+            <div class="itin-item">
+              <h4>Day 1 &mdash; 12:00: Lunch at a Beachside Warung</h4>
+              <p>Fresh grilled fish, cold coconut, and a view of the water. Take your time &mdash; the afternoon is yours.</p>
+            </div>
+            <div class="itin-item">
+              <h4>Day 1 &mdash; 13:30: Crystal Bay</h4>
+              <p>One of Nusa Penida's most beautiful beaches, with excellent visibility and a healthy reef just offshore. A great spot for a long, relaxed snorkel. Keep an eye out for reef sharks and sea turtles.</p>
+            </div>
+            <div class="itin-item">
+              <h4>Day 1 &mdash; 15:30: Check In to Guesthouse</h4>
+              <p>Settle into your beachside guesthouse. Rest, explore the village, watch the sunset, and enjoy dinner at your own pace. The island is wonderfully quiet at night.</p>
+            </div>
+            <div class="itin-item">
+              <h4>Day 2 &mdash; 07:00: Gamat Bay (Early Morning)</h4>
+              <p>Gamat Bay is Nusa Penida's best-kept secret &mdash; a sheltered cove with towering cliffs above and extraordinary coral below. Arriving early means calm water and almost no other visitors.</p>
+            </div>
+            <div class="itin-item">
+              <h4>Day 2 &mdash; 09:00: Blue Lagoon</h4>
+              <p>A dramatic sea arch frames the entrance to this natural lagoon. Snorkel the wall and explore the crevices where moray eels, clownfish and nudibranchs hide.</p>
+            </div>
+            <div class="itin-item">
+              <h4>Day 2 &mdash; 11:00: Return Boat to Sanur</h4>
+              <p>Board the late morning fast boat back to Bali. Your driver meets you at the harbour for the return journey to your hotel.</p>
+            </div>
+            <div class="itin-item">
+              <h4>Day 2 &mdash; ~13:00: Hotel Drop-Off</h4>
+              <p>Back to your Bali accommodation, salty and smiling.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="tour-section">
+          <h2>What's Included</h2>
+          <div class="inc-grid">
+            <div class="inc-col">
+              <h3><i class="ck">&#10003;</i> Included</h3>
+              <ul>
+                <li><i class="ck">&#10003;</i> Private air-conditioned car (Bali)</li>
+                <li><i class="ck">&#10003;</i> Professional English-speaking driver/guide</li>
+                <li><i class="ck">&#10003;</i> Hotel pickup &amp; drop-off (Bali)</li>
+                <li><i class="ck">&#10003;</i> Return fast boat tickets (Sanur)</li>
+                <li><i class="ck">&#10003;</i> Private 4WD on Nusa Penida</li>
+                <li><i class="ck">&#10003;</i> Snorkeling boat (charter)</li>
+                <li><i class="ck">&#10003;</i> Snorkeling gear (mask, fins, vest)</li>
+                <li><i class="ck">&#10003;</i> 1 night guesthouse accommodation</li>
+                <li><i class="ck">&#10003;</i> Bottled water throughout</li>
+                <li><i class="ck">&#10003;</i> Fuel, parking &amp; harbour fees</li>
+              </ul>
+            </div>
+            <div class="inc-col">
+              <h3><i class="cx">&#10007;</i> Not Included</h3>
+              <ul>
+                <li><i class="cx">&#10007;</i> Marine park entry fee (~$5&ndash;10)</li>
+                <li><i class="cx">&#10007;</i> Meals (great local options available)</li>
+                <li><i class="cx">&#10007;</i> Underwater camera rental (available on-site)</li>
+                <li><i class="cx">&#10007;</i> Travel insurance (recommended)</li>
+                <li><i class="cx">&#10007;</i> Gratuities</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- Good to know note -->
+        <div class="tour-section">
+          <h2>Good to Know</h2>
+          <p>Manta sightings at Manta Point are very consistent year-round, but are never guaranteed &mdash; these are wild animals in open ocean. That said, our guides know the best spots and times, and sightings on this route are frequent.</p>
+          <p>Basic swimming ability is required. You do not need to be an experienced snorkeler &mdash; our guides are in the water with you and life vests are always available. The trip is suitable for adults and children 8 years and above.</p>
+          <p>Nusa Penida's snorkeling is best between April and October (dry season) when visibility is highest. We operate year-round but will advise if sea conditions on a particular day are not suitable.</p>
+        </div>
+      </div>
+
+      <!-- Right: Booking Sidebar -->
+      <div>
+        <div class="booking-card">
+          <div class="book-price-row">
+            <span class="book-from">From</span>
+            <span class="book-amount">$130</span>
+          </div>
+          <p class="book-note">Per car &mdash; not per person. Up to 6 guests.</p>
+          <div class="book-details">
+            <div class="book-row">
+              <span class="lbl">Duration</span>
+              <span class="val">2 Days / 1 Night</span>
+            </div>
+            <div class="book-row">
+              <span class="lbl">Group Size</span>
+              <span class="val">Up to 6 Guests</span>
+            </div>
+            <div class="book-row">
+              <span class="lbl">Accommodation</span>
+              <span class="val">Included (1 night)</span>
+            </div>
+            <div class="book-row">
+              <span class="lbl">Snorkel Gear</span>
+              <span class="val">Included</span>
+            </div>
+            <div class="book-row">
+              <span class="lbl">Fitness Level</span>
+              <span class="val">Easy&ndash;Moderate</span>
+            </div>
+            <div class="book-row">
+              <span class="lbl">Min. Age</span>
+              <span class="val">8 years</span>
+            </div>
+          </div>
+          <a href="https://wa.me/6581292310?text=Hello!%20I%27d%20like%20to%20book%20the%20Nusa%20Penida%20Snorkeling%20trip%20(2D%2F1N).%20Please%20let%20me%20know%20available%20dates%20and%20prices." target="_blank" class="btn btn-whatsapp book-btn">
+            <svg viewBox="0 0 24 24" fill="white" width="18" height="18"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg>
+            Book on WhatsApp
+          </a>
+          <p class="book-disclaimer">We'll confirm your booking within 1 hour. No upfront payment needed.</p>
+        </div>
+
+        <!-- Related tour nudge -->
+        <div style="margin-top:1.25rem;background:var(--sand);border-radius:var(--radius);padding:1.25rem;border:1px solid var(--border);">
+          <p style="font-size:0.8rem;font-weight:800;text-transform:uppercase;letter-spacing:0.1em;color:var(--green-mid);margin-bottom:0.5rem;">Also Consider</p>
+          <a href="nusa-penida.html" style="display:flex;align-items:center;gap:0.6rem;font-weight:700;font-size:0.9rem;color:var(--green-dark);transition:color 0.2s;">
+            <svg viewBox="0 0 24 24" fill="none" stroke="var(--green)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" width="14" height="14"><polyline points="9 18 15 12 9 6"/></svg>
+            Nusa Penida Day Trip (Cliffs &amp; Beaches)
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- CTA -->
+<section class="cta-section">
+  <div class="container">
+    <span class="section-label" style="color:rgba(255,255,255,0.7);">Ready to Dive In?</span>
+    <h2>Book Your Snorkeling Adventure</h2>
+    <p>Drop us a WhatsApp with your travel dates and group size. We'll take care of everything else.</p>
+    <div class="cta-actions">
+      <a href="https://wa.me/6581292310?text=Hello!%20I%27d%20like%20to%20book%20the%20Nusa%20Penida%20Snorkeling%20trip." target="_blank" class="btn btn-whatsapp">
+        <svg viewBox="0 0 24 24" fill="white" width="18" height="18"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg>
+        Chat on WhatsApp
+      </a>
+      <a href="index.html#tours" class="btn btn-ghost">See Other Tours</a>
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer>
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <span class="fn">West Bali Driver</span>
+        <p>Private car tours across Bali and East Java with professional, friendly local drivers.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Our Tours</h4>
+        <ul>
+          <li><a href="ubud.html">Ubud Culture &amp; Nature</a></li>
+          <li><a href="nusa-penida.html">Nusa Penida Island</a></li>
+          <li><a href="nusa-penida-snorkeling.html">Nusa Penida Snorkeling</a></li>
+          <li><a href="ijen.html">Ijen Crater Blue Fire</a></li>
+          <li><a href="bromo.html">Mount Bromo Sunrise</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="index.html#gallery">Gallery</a></li>
+          <li><a href="index.html#reviews">Reviews</a></li>
+          <li><a href="index.html#contact">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Contact</h4>
+        <div class="fc-item">
+          <svg viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81a19.79 19.79 0 01-3.07-8.67A2 2 0 012 .99h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 8.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+          +65 8129 2310
+        </div>
+        <div class="fc-item">
+          <svg viewBox="0 0 24 24"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+          Bali, Indonesia
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>&copy; 2025 West Bali Driver. All rights reserved.</span>
+      <span>Made with love in Bali</span>
+    </div>
+  </div>
+</footer>
+
+<!-- Floating WhatsApp -->
+<a href="https://wa.me/6581292310?text=Hello!%20I%27m%20interested%20in%20the%20Nusa%20Penida%20Snorkeling%20trip." target="_blank" class="wa-float">
+  <svg viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg>
+  <span class="wa-label">Book This Tour</span>
+</a>
+
+<script>
+  const navbar = document.getElementById('navbar');
+  window.addEventListener('scroll', () => { navbar.classList.toggle('scrolled', window.scrollY > 40); });
+  function openMobileNav() { document.getElementById('mobileNav').classList.add('open'); document.body.style.overflow = 'hidden'; }
+  function closeMobileNav() { document.getElementById('mobileNav').classList.remove('open'); document.body.style.overflow = ''; }
+  const revealEls = document.querySelectorAll('.reveal');
+  const observer = new IntersectionObserver((entries) => { entries.forEach(e => { if (e.isIntersecting) { e.target.classList.add('visible'); observer.unobserve(e.target); } }); }, { threshold: 0.1 });
+  revealEls.forEach(el => observer.observe(el));
+</script>
+</body>
+</html>
